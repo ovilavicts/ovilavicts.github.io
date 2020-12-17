@@ -4,57 +4,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>Biodata</title>
 </head>
 <body>
     <img  src="logo.png" class="logo1">
-    <ul>
-        <li class="dua" id="tiga"> <a href="biodata.html">BIODATA</a></li>
-        <li class="dua"><a href="index.html">HOME</a></li>
-        <li class="dua"><a href="aboutX2.html">ABOUT X2</a></li>
-        <li class="dua">PRODUCT</li>
-        <li class="dua">COLOR</li>
-        <li class="dua">RECOMMENDATION</li>
-        <li class="dua">STORE</li>
-        <li class="dua"> <a href="blog.html">BLOG</a></li>
-        <li class="dua"> <a href="formX2.html">CONTACT US</a> </li>
-    </ul>
+    <nav class="navbar navbar-expand-sm navbar-dark justify-content-center" id="menu">
+        <ul class="navbar-nav ">
+          <li class="nav-item active">
+            <a class="nav-link" href="biodata.html">BIODATA</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="aboutX2.html">ABOUT X2</a>
+          </li>
+          <li class="nav-item active ">
+            <a class="nav-link dropdown-toggle" href="#">PRODUCT</a>
+          </li>
+          <li class="nav-item active" active>
+            <a class="nav-link dropdown-toggle" href="#">COLOR</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link dropdown-toggle" href="#">RECOMMENDATION</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="blog.html">BLOG</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="formX2.html">CONTACT US</a>
+          </li>
+        </ul>
+      </nav>
 
-    <img src="saya.jpg" alt="Ovila Victoria" class="bio2">
-
-  <ul>
-    <li class="bio3">Nama: Ovila Victoria Simanjuntak</li>
-    <li class="bio3">NIM   : 1981006</li>
-    <li class="bio3">Tempat, Tanggal lahir     : Jakarta, 10 Januari 2002 </li>
-    <li class="bio3">Umur  : 18 Tahun</li>
-    <li class="bio3">No. Telp  : 081717897800</li>
-    <li class="bio3">E-mail    : ovilavict@gmail.com</li>
-    <li class="bio3">Fakultas  : Teknologi Informasi</li>
-    <li class="bio3">Jurusan   : Teknik Informatika</li>
-</ul> 
+      <div class="container col-md-4">
+        <h2 class="text-center">Introducing</h2>
+        <p class="text-center">- X2 Softlens -</p>
+      <div class="card" style="width:400px">
+          <img class="card-img-top" src="saya.jpg" alt="Card image" style="width:100%">
+      <div class="card-body">
+            <h4 class="card-title">Ovila Victoria Simanjuntak</h4>
+            <p class="card-text">Ovila found X2 Softlens about 3 years ago when she was in college</p>
+            <a href="#demo" class="btn" data-toggle="collapse"><u>See Profile</u></a>
+          </div>
+      </div>
+      </div>
     
+      <div class="container">
+        <div id="demo" class="collapse">
+          <div id="nama" style="max-width: 100%;">
+            <h4>OWNER of X2 Softlens</h4>
+        </div>
+        <div id="nama" style="max-width: 100%;">
+            <h3>Ovila Victoria Simanjuntak</h3>
+        </div>
+        <div id="nama" style="max-width: 100%;">
+            <h3>ovilavict@gmail.com</h3>
+        </div>
+        <div id="nama" style="max-width: 100%;">
+            <h3>081717897800</h3>
+        </div>
+        </div>
+      </div>
+        
+          <!-- <button type="button" class="btn" data-toggle="collapse" style="color:white; background-color:rgb(233, 50, 105);">See Profile</button>
+       <div class="collapse">
+      <div id="nama" style="max-width: 100%;">
+          <h4>OWNER of X2 Softlens</h4>
+      </div>
+      <div id="nama" style="max-width: 100%;">
+          <h3>Ovila Victoria Simanjuntak</h3>
+      </div>
+      <div id="nama" style="max-width: 100%;">
+          <h3>ovilavict@gmail.com</h3>
+      </div>
+      <div id="nama" style="max-width: 100%;">
+          <h3>081717897800</h3>
+      </div>
+    </div>  -->
+  
+
+  
 
 </body>
 
-<footer>
-    <p id="judul6"> - About X2 - </p> <br>
-    <p id="judul7"><strong>X2 Soft Cosmetic Lens </strong>adalah salah satu koleksi dari EXOTICON yang merupakan leader dalam menciptakan softlens berwarna.<br><br>
+<footer class="page-footer container-fluid" style="margin-top: 150px; position: relative;">
+  <div class="row">
+  <div class="col-md-6">
+  <p class="text-center col-md-6"> - About X2 - </p> <br>
+  <div class="font-weight-light">
+    <p><strong>X2 Soft Cosmetic Lens </strong>adalah salah satu koleksi dari EXOTICON yang merupakan leader dalam menciptakan softlens berwarna.<br><br>
 
-        Dengan berbagai pilihan koleksi pattern dan warna X2 Soft Cosmetic Lens by EXOTICON memberikan lebih banyak pilihan dan gaya untuk tampil cantik dan menarik sesuai karaktermu. Sebagai market leader di lensa kontak berwarna sejak tahun 2001 X2 Soft Cosmetic Lens by EXOTICON memiliki koleksi warna dan pattern terlengkap di Indonesia bahkan di dunia.<br><br>
-        
-        Seiring dengan perkembangan dan tren saat ini, lensa kontak warna menjadi salah satu bagian penting dalam make up wajah. Karena mata sering kali menjadi fokus utama dari semua bagian yang ada pada saat make up sehingga X2 Soft Cosmetic Lens by EXOTICON menjadi kepercayaan para make up artist, selebriti, dan juga para pengguna lensa kontak untuk melengkapi penampilan.
-    </p>
-
-    
-    <div >
-        <p class="foot1"> - Follow Us - </p> <br>
-        <ul>
-            <li class="foot2"><img src="youtube.png" width="30" height="30"></li>
-            <li class="foot2"><img src="ig.png" width="30" height="30"></li>
-            <li class="foot2"><img src="fb.png" width="20" height="20"></li>
-        </ul>
+      Dengan berbagai pilihan koleksi pattern dan warna X2 Soft Cosmetic Lens by EXOTICON memberikan lebih banyak pilihan dan gaya untuk tampil cantik dan menarik sesuai karaktermu. Sebagai market leader di lensa kontak berwarna sejak tahun 2001 X2 Soft Cosmetic Lens by EXOTICON memiliki koleksi warna dan pattern terlengkap di Indonesia bahkan di dunia.<br><br>
+      
+      Seiring dengan perkembangan dan tren saat ini, lensa kontak warna menjadi salah satu bagian penting dalam make up wajah. Karena mata sering kali menjadi fokus utama dari semua bagian yang ada pada saat make up sehingga X2 Soft Cosmetic Lens by EXOTICON menjadi kepercayaan para make up artist, selebriti, dan juga para pengguna lensa kontak untuk melengkapi penampilan.
+  </p>
+  </div>
+</div>
+  <div>
+      <p> - Follow Us - </p> <br>
+      <ul class="row" style="list-style: none;">
+          <li><img src="fb.png" width="20" height="20"></li>
+          <li><img src="ig.png" width="30" height="30"></li>
+          <li><img src="youtube.png"  width="30" height="30" ></li>
+      </ul>
+      <form>
+        <div class="form-group" >
+            <label>Nama : </label>
+            <input  type="text" class="form-control" name="name" placeholder="Enter Full Name" required>
+        </div>
+        <div class="form-group">
+            <label>Email : </label>
+            <input  type="email" class="form-control" name="email" placeholder="Enter Email" required>
+        </div>
+        <div class="form-group">
+          <label for="alamat">Pesan : </label> <br>
+          <textarea name="pesan" rows="10" cols="75"></textarea>
+      </div>
+      <div>
+        <button type="submit" class="btn" style=" color:white; background-color:  rgb(233, 50, 105); border: none;">KIRIM</button>
+      </div>
     </div>
-
-    <a href="formX2.html" class="foot3">Contact Us</a>
+  </div>
 </footer>
 </html>

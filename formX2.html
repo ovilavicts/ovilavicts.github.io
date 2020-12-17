@@ -4,100 +4,153 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>Contact Us</title>
 </head>
 <body>
     <img  src="logo.png" class="logo1">
 
-    <ul>
-        <li class="dua" id="tiga"> <a href="biodata.html">BIODATA</a></li>
-        <li class="dua"><a href="index.html">HOME</a></li>
-        <li class="dua"><a href="aboutX2.html">ABOUT X2</a></li>
-        <li class="dua">PRODUCT</li>
-        <li class="dua">COLOR</li>
-        <li class="dua">RECOMMENDATION</li>
-        <li class="dua">STORE</li>
-        <li class="dua"> <a href="blog.html">BLOG</a></li>
-        <li class="dua"> <a href="formX2.html">CONTACT US</a> </li>
-    </ul>
-
-    <div class="about1">Contact Us</div>
-
-<form>
-    <label for="nama">Nama : </label><br>
-    <input type="text" name="nama" placeholder="Masukkan Nama Lengkap">
-
-    <br>
-    <label for="email">E-mail : </label><br>
-    <input type="email" name="email" placeholder="Masukkan E-mail">
-
-
-    <br>
-    <label for="pass">Password : </label><br>
-    <input type="password" name="pass" placeholder="Masukkan Password">
-    
-    <br>
-    <label for="gender">Jenis Kelamin : </label><br>
-    <input type="radio" name="gender" value="male">
-    <label for="male">Pria</label>
-    <input type="radio" name="gender" value="female">
-    <label for="female">Wanita</label>
-
-    <br>
-    <label for="agama">Agama : </label> <br>
-    <select name="agama">
-        <option value="kristen">Kristen</option>
-        <option value="islam">Islam</option>
-        <option value="budha">Budha</option>
-        <option value="konghucu">konghucu</option>
-    </select>
-
-    <br>
-    <label for="alamat">Alamat : </label> <br>
-    <textarea name="alamat" rows="10" cols="40" style="border: 1px solid rgb(233, 50, 105);"></textarea>
-
-    <br>
-    <label>Hobby : </label> <br>
-    <input type="checkbox" name="hobby" value="membaca">
-    <label for="hobby">Membaca</label> <br>
-    <input type="checkbox" name="hobby" value="musik">
-    <label for="hobby">Bermain Musik</label> <br>
-    <input type="checkbox" name="hobby" value="Memancing">
-    <label for="hobby">Memancing</label> <br>
-    <input type="checkbox" name="hobby" value="Berenang">
-    <label for="hobby">Berenang</label> <br>
-    <input type="checkbox" name="hobby" value="Memasak">
-    <label for="hobby">Memasak</label> <br>
-    <input type="checkbox" name="hobby" value="Melukis">
-    <label for="hobby">Melukis</label> <br>
-    <input type="checkbox" name="hobby" value="Menggambar">
-    <label for="hobby">Menggambar</label> <br>
-    <input type="checkbox" name="hobby" value="Bernyanyi">
-    <label for="hobby">Bernyanyi</label> <br>
-    
-
-    <input type="submit" name="submit">
-</form>
-</body>
-<footer>
-    <p id="judul6"> - About X2 - </p> <br>
-    <p id="judul7"><strong>X2 Soft Cosmetic Lens </strong>adalah salah satu koleksi dari EXOTICON yang merupakan leader dalam menciptakan softlens berwarna.<br><br>
-
-        Dengan berbagai pilihan koleksi pattern dan warna X2 Soft Cosmetic Lens by EXOTICON memberikan lebih banyak pilihan dan gaya untuk tampil cantik dan menarik sesuai karaktermu. Sebagai market leader di lensa kontak berwarna sejak tahun 2001 X2 Soft Cosmetic Lens by EXOTICON memiliki koleksi warna dan pattern terlengkap di Indonesia bahkan di dunia.<br><br>
-        
-        Seiring dengan perkembangan dan tren saat ini, lensa kontak warna menjadi salah satu bagian penting dalam make up wajah. Karena mata sering kali menjadi fokus utama dari semua bagian yang ada pada saat make up sehingga X2 Soft Cosmetic Lens by EXOTICON menjadi kepercayaan para make up artist, selebriti, dan juga para pengguna lensa kontak untuk melengkapi penampilan.
-    </p>
-
-    
-    <div >
-        <p class="foot1"> - Follow Us - </p> <br>
-        <ul>
-            <li class="foot2"><img src="youtube.png" width="30" height="30"></li>
-            <li class="foot2"><img src="ig.png" width="30" height="30"></li>
-            <li class="foot2"><img src="fb.png" width="20" height="20"></li>
+    <nav class="navbar navbar-expand-sm navbar-dark justify-content-center" id="menu">
+        <ul class="navbar-nav ">
+          <li class="nav-item active">
+            <a class="nav-link" href="biodata.html">BIODATA</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="aboutX2.html">ABOUT X2</a>
+          </li>
+          <li class="nav-item active ">
+            <a class="nav-link dropdown-toggle" href="#">PRODUCT</a>
+          </li>
+          <li class="nav-item active" active>
+            <a class="nav-link dropdown-toggle" href="#">COLOR</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link dropdown-toggle" href="#">RECOMMENDATION</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="blog.html">BLOG</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="formX2.html">CONTACT US</a>
+          </li>
         </ul>
-    </div>
+      </nav>
 
-    <a href="formX2.html" class="foot3">Contact Us</a>
+<h2 class="text-center" id="contact">Contact Us</h2>
+<div class="container">
+    <form>
+        <div class="form-group" >
+            <label>Nama : </label>
+            <input style="border: 1px solid rgb(233, 50, 105);" type="text" class="form-control" name="name" placeholder="Enter Full Name" required>
+        </div>
+        <div class="form-group">
+            <label>Email : </label>
+            <input style="border: 1px solid rgb(233, 50, 105);" type="email" class="form-control" name="email" placeholder="Enter Email" required>
+        </div>
+        <div class="form-group">
+            <label>Username : </label>
+            <input style="border: 1px solid rgb(233, 50, 105);" type="text" class="form-control" name="username" placeholder="Enter Full Name" required>
+        </div>
+        <div class="form-group">
+            <label>Password : </label>
+            <input style="border: 1px solid rgb(233, 50, 105);" type="password" class="form-control" name="password" placeholder="Enter Password" required>
+        </div>
+        <div class="form-group" required>
+            <label for="gender">Jenis Kelamin : </label><br>
+            <input type="radio" name="gender" value="male">
+            <label for="male">Pria</label>
+            <input type="radio" name="gender" value="female">
+            <label for="female">Wanita</label>
+        </div>
+        <div class="form-group">
+            <label for="agama">Agama : </label> <br>
+        <select style="border: 1px solid rgb(233, 50, 105);" name="agama">
+            <option value="kristen">Kristen</option>
+            <option value="islam">Islam</option>
+            <option value="budha">Budha</option>
+            <option value="konghucu">Konghucu</option>
+        </select>
+        </div>
+        <div class="form-group">
+            <label for="alamat">Alamat : </label> <br>
+            <textarea name="alamat" rows="10" cols="40" style="border: 1px solid rgb(233, 50, 105);"></textarea>
+        </div>
+        <div>
+            <label>Hobby : </label> <br>
+            <input type="checkbox" name="hobby" value="membaca">
+            <label for="hobby">Membaca</label> <br>
+            <input type="checkbox" name="hobby" value="musik">
+            <label for="hobby">Bermain Musik</label> <br>
+            <input type="checkbox" name="hobby" value="Memancing">
+            <label for="hobby">Memancing</label> <br>
+            <input type="checkbox" name="hobby" value="Berenang">
+            <label for="hobby">Berenang</label> <br>
+            <input type="checkbox" name="hobby" value="Memasak">
+            <label for="hobby">Memasak</label> <br>
+            <input type="checkbox" name="hobby" value="Melukis">
+            <label for="hobby">Melukis</label> <br>
+            <input type="checkbox" name="hobby" value="Menggambar">
+            <label for="hobby">Menggambar</label> <br>
+            <input type="checkbox" name="hobby" value="Bernyanyi">
+            <label for="hobby">Bernyanyi</label> <br>
+        </div>
+
+        <input type="submit" name="submit" style=" color:white; background-color:  rgb(233, 50, 105); border: none;"> 
+    </form>
+</div>
+
+</body>
+<footer class="page-footer container-fluid" style="margin-top: 150px; position: relative;">
+  <div class="row">
+  <div class="col-md-6">
+  <p class="text-center col-md-6"> - About X2 - </p> <br>
+  <div class="font-weight-light">
+    <p><strong>X2 Soft Cosmetic Lens </strong>adalah salah satu koleksi dari EXOTICON yang merupakan leader dalam menciptakan softlens berwarna.<br><br>
+
+      Dengan berbagai pilihan koleksi pattern dan warna X2 Soft Cosmetic Lens by EXOTICON memberikan lebih banyak pilihan dan gaya untuk tampil cantik dan menarik sesuai karaktermu. Sebagai market leader di lensa kontak berwarna sejak tahun 2001 X2 Soft Cosmetic Lens by EXOTICON memiliki koleksi warna dan pattern terlengkap di Indonesia bahkan di dunia.<br><br>
+      
+      Seiring dengan perkembangan dan tren saat ini, lensa kontak warna menjadi salah satu bagian penting dalam make up wajah. Karena mata sering kali menjadi fokus utama dari semua bagian yang ada pada saat make up sehingga X2 Soft Cosmetic Lens by EXOTICON menjadi kepercayaan para make up artist, selebriti, dan juga para pengguna lensa kontak untuk melengkapi penampilan.
+  </p>
+  </div>
+</div>
+  <div>
+      <p> - Follow Us - </p> <br>
+      <ul class="row" style="list-style: none;">
+          <li><img src="fb.png" width="20" height="20"></li>
+          <li><img src="ig.png" width="30" height="30"></li>
+          <li><img src="youtube.png"  width="30" height="30" ></li>
+      </ul>
+      <form>
+        <div class="form-group" >
+            <label>Nama : </label>
+            <input  type="text" class="form-control" name="name" placeholder="Enter Full Name" required>
+        </div>
+        <div class="form-group">
+            <label>Email : </label>
+            <input  type="email" class="form-control" name="email" placeholder="Enter Email" required>
+        </div>
+        <div class="form-group">
+          <label for="alamat">Pesan : </label> <br>
+          <textarea name="pesan" rows="10" cols="75"></textarea>
+      </div>
+      <div>
+        <button type="submit" class="btn" style=" color:white; background-color:  rgb(233, 50, 105); border: none;">KIRIM</button>
+      </div>
+    </div>
+  </div>
 </footer>
 </html>

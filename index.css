@@ -1,559 +1,88 @@
-a{
-    color: white;
-    text-decoration: none;
-}
 a:hover{
     color: rgb(197, 191, 191);
 }
 .logo1{
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     position: relative;
     top: 30px;
     left: 43%;
 }
-.dua{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#menu{
+    background-color:rgb(233, 50, 105) ;
+    margin-top: 65px;
     font-weight: bold;
-    color: white; 
-    background-color:rgb(233, 50, 105);
-    list-style-type: none;
-    float: left;
-    padding: 15px;
-    position: relative;
-    top: 50px;
 }
+
 .dua:hover{
     color: rgb(197, 191, 191);
 }
 #tiga{
     margin-left: 90px;
 }
-.empat{
-    margin: auto;
-    width: 90%;
-    height: 500px;
-    padding: 70px;
-    position: relative;
-    top: 100px;
-}
-.lima{
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: underline;
-    color: grey;
-    font-size: 30px;
-    text-align: center;
-    float: left;
-    padding: 100px;
-    margin-left: 100px;
-    position: relative;
-    top: 50px;
-}
-.enam{
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: underline;
-    color: grey;
-    font-size: 30px;
-    text-align: center;
-    float: right;
-    padding: 100px;
-    margin-right: 100px;
-    position: relative;
-    top: 50px; 
-}
-#tujuh{
-    font-family: 'Times New Roman', Times, serif;
-    color: grey;
-    font-size: 20px;
-    text-align: center;
-    float: left;
-    margin-top: 5px;
-    margin-left: 30px;
-    max-width: 45%;
-}
-#delapan{
-    font-family: 'Times New Roman', Times, serif;
-    color: grey;
-    font-size: 20px;
-    text-align: center;
-    float: right;
-    margin-top: 10px;
-    margin-right: 70px;
-    max-width: 40%;
-}
-#sembilan{
-    width: 90%;
-    height: 500px;
-    position: relative;
-    top: 30px;
-    left: 75px;
-}
-.sepuluh{
-    color: rgb(233, 50, 105);
+/* home */
+#sepuluh{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
     font-weight: 500;
     float: left;
     position: relative;
     top: 90px;
     padding: 10px;
     margin-left: 50px;
-    border: 1px solid ;
-    border-color:white;
-    border-bottom-color: rgb(233, 50, 105);
     width: 1000px;
 }
 .sebelas{
-    width: 350px;
-    height: 350px;
-    padding: 5px;
-    position: relative;
+    width:200px;
+    height: 200px;
+    padding: 2px;
     top: 120px;
-    margin-left: 30px;
-    margin-right: 20px;
     border: 1px solid white;
     border-radius: 30px;
 }
-.duabelas{
-    position: relative;
-    top: 200px;
-    margin-left: 70px;
-}
-.tigabelas{
-    color: rgb(233, 50, 105);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    font-weight: 500;
-    float: left;
-    position: relative;
-    top: 200px;
-    padding: 10px;
-    margin-left: 50px;
-    border: 1px solid ;
-    border-color:white;
-    border-bottom-color: rgb(233, 50, 105);
-    width: 1000px;
-}
-.empatbelas{
-    height:200px;
-    width: 300px;
-    float: left;
-    position: relative;
-    top: 230px;
-    padding: 20px;
-    margin: 20px;
-}
-.limabelas{
-    color: rgb(233, 50, 105);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    font-weight: 500;
-    float: left;
-    position: relative;
-    top: 200px;
-    padding: 10px;
-    margin-left: 80px;
-    border: 1px solid ;
-    border-color:white;
-    border-bottom-color: rgb(233, 50, 105);
-    width: 1000px;
-}
-.enambelas{
-    position: relative;
-    top: 230px;
-    left: 90px;
-}
-.judul{
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    float:left;
-    width: 250px;
-    position: relative;
-    top: 170px;
-    left: 50px;
-    font-size: 20px;
-}
-.judul1{
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    text-align: left;
-    float:left;
-    width: 300px;
-    position: relative;
-    top:230px;
-    right: 200px;
-}
-.judul2{
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    float:left;
-    width: 250px;
-    position: relative;
-    top: 170px;
-    right: 100px;
-    font-size: 20px;
-}
-.judul3{
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    text-align: left;
-    float:left;
-    width: 300px;
-    position: relative;
-    top:230px;
-    right: 350px;
-}
-.judul4{
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    float:right;
-    width: 300px;
-    position: relative;
-    top: 130px;
-    right: 150px;
-    font-size: 20px;
-}
-.judul5{
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    text-align: left;
-    float:right;
-    width: 300px;
-    position: relative;
-    top:160px;
-    left: 160px;
-}
-footer{
-    position: absolute;
-    top: 4000px;
-    left: 80px;
-}
-#judul6{
-    color: grey;
-    font-family: 'Times New Roman', Times, serif;
-    position: absolute;
-    left: 200px;
-}
-#judul7{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: grey;
-    float: left;
-    text-align: left;
-    width: 400px;
-    top: 500px;
-    padding: 20px;
-}
-.foot1{
-    color: grey;
-    float: right;
-    position: relative;
-    bottom: 530px;
-    left: 400px;
-}
-.foot2{
-    list-style-type: none;
-    float: right;
-    padding: 10px;
-    position: relative;
-    bottom: 500px;
-    left: 520px;
-}
-.foot3{
-    color: grey;
-    float: right;
-    position: relative;
-    bottom: 400px;
-    left: 650px;
-}
 /*About X2*/
-.about1{
-    color: rgb(233, 50, 105);
-    float: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
-    position: relative;
-    top: 100px;
-    margin-left: 45%;
+#about2{
+    margin-left: 200px;
+    margin-top: 100px;
 }
-.about2{
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    left: 200px;
-    top: 400px;
-}
-.about3{
+#about3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-    float: right;
     position: relative;
     right: 250px;
-    top: 200px;
+    top: 100px;
     font-size: 18px;
     word-spacing: 5px;
-    width: 350px;
 }
-.about4{
+#about4{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
-    float: left;
     position: relative;
-    left: 200px;
-    top: 500px;
-    width: 700px;
-    text-align: justify;
+    word-spacing: 5px;
+    top: 150px;
 }
 #tech{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    float: left;
-    position: absolute;
+    position: relative;
     left: 210px;
-    top: 1000px;
+    top: 200px;
 }
-.about5{
+#about5{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
-    float: left;
     position: relative;
-    left: 200px;
-    top: 600px;
-    width: 700px;
-    text-align: justify;
-}
-.about6{
-    width: 700px;
-    height: 350px;
-    position: relative;
-    top: 620px;
-    left: 250px;
-}
-#ambass{
-    color: rgb(233, 50, 105);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    position: relative;
-    top: 700px;
-    left: 450px;
-}
-.about7{
-    width: 700px;
-    height: 1000px;
-    position: relative;
-    top: 700px;
-    left: 250px;
+    word-spacing: 5px;
+    top: 250px;
 }
 
-/* blog X2*/
-.blog1{
-    color: rgb(233, 50, 105);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
-    text-align: center;
-    float: left;
-    position: relative;
-    top: 100px;
-    left: 300px;
-    border: 1px solid white;
-    border-bottom-color: rgb(233, 50, 105);
-    width: 50%;
-    padding: 40px;
-}
-.blog2{
-    position: relative;
-    top: 300px;
-    right: 450px;
-}
-#blog3{
-    width: 300px;
-    height: 150px;
-    float: left;
-    position: relative;
-    top:400px;
-    right:450px;
-}
-#blog4{
-    width: 300px;
-    height: 150px;
-    float: right;
-    position: relative;
-    top:250px;
-    right:320px;
-}
-.blog5{
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    float:left;
-    width: 250px;
-    position: relative;
-    top: 400px;
-    left: 300px;
-    font-size: 20px;
-}
-.blog6{
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    text-align: center;
-    float:left;
-    width: 300px;
-    position: relative;
-    top:450px;
-    left: 10px;
-}
-.blog7{
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    float: right;;
-    width: 250px;
-    position: relative;
-    top: 400px;
-    right: 60px;
-    font-size: 20px;
-}
-.blog8{
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    text-align: center;
-    float:right;
-    width: 300px;
-    position: relative;
-    top:420px;
-    left: 230px;
-}
-#blog13{
-    width: 300px;
-    height: 150px;
-    float: left;
-    position: relative;
-    top:500px;
-    left: 270px;
-}
-.blog9{
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    float: left;
-    width: 250px;
-    position: relative;
-    top: 630px;
-    left: 5px;
-    font-size: 18px;
-}
-.blog10{
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    text-align: center;
-    float:left;
-    width: 300px;
-    position: relative;
-    top: 680px;
-    right: 270px;
-}
-#blog14{
-    width: 300px;
-    height: 150px;
-    float: right;
-    position: relative;
-    top:430px;
-    right: 30px;
-}
-.blog11{
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    float: right;
-    width: 250px;
-    position: relative;
-    top: 580px;
-    left: 250px;
-    font-size: 18px;
-}
-.blog12{
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    text-align: center;
-    float:right;
-    width: 300px;
-    position: relative;
-    top: 590px;
-    left: 270px;
-}
+/* Blog X2 */
 
 /*biodata*/
-.bio1{
-    color:white;
+#nama{
+    color: white;
     background-color: rgb(233, 50, 105);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 20px;
-    text-indent: 50px;
-    position: relative;
-    top: 550px;
-}
-.bio2{
-    width: 300px;
-    height: 300px;
-    padding: 100px;
-    float: right;
-    border: 1px solid white;
-    border-radius: 120px;
-
-}
-.bio3{
-    list-style: none;
-    color: rgb(233, 50, 105);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-weight: bold;
     padding: 10px;
-    float: left;
-    position: relative;
-    top:100px;
-    left:90px;
-    margin-right: 200px;
+    margin: 30px;
 }
 /* Contact Us */
-form{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    position: relative;
-    top: 200px;
-    right: 300px;
-    float: left;
-}
-input[type=text]{
-    padding: 20px;
-    width: 300px;
-    border: 1px solid rgb(233, 50, 105);
-}
-input[type=email]{
-    padding: 10px;
-    width: 300px;
-    border: 1px solid rgb(233, 50, 105);
-}
-input[type=password]{
-    padding: 10px;
-    width: 300px;
-    border: 1px solid rgb(233, 50, 105);
-}
-input[type=submit]{
+#contact{
     color: rgb(233, 50, 105);
-    margin: 10px;
 }
-
